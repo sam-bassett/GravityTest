@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225B74F71693C487008052E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225B74F61693C487008052E0 /* main.cpp */; };
+		225B74F91693C487008052E0 /* GravityTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225B74F81693C487008052E0 /* GravityTest.1 */; };
+		225B75081693C5D9008052E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B75071693C5D9008052E0 /* Cocoa.framework */; };
+		225B750A1693C5F3008052E0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B75091693C5F3008052E0 /* SDL.framework */; };
+		225B75151693C700008052E0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 225B75141693C700008052E0 /* SDLMain.m */; };
+		225B751816945E7E008052E0 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225B751616945E7E008052E0 /* Point.cpp */; };
+		225B751B16946035008052E0 /* GravEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225B751916946035008052E0 /* GravEngine.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		225B74F01693C487008052E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				225B74F91693C487008052E0 /* GravityTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		225B74F21693C487008052E0 /* GravityTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GravityTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225B74F61693C487008052E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		225B74F81693C487008052E0 /* GravityTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GravityTest.1; sourceTree = "<group>"; };
+		225B75071693C5D9008052E0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		225B75091693C5F3008052E0 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		225B75131693C700008052E0 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = GravityTest/SDLMain.h; sourceTree = "<group>"; };
+		225B75141693C700008052E0 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = GravityTest/SDLMain.m; sourceTree = "<group>"; };
+		225B751616945E7E008052E0 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		225B751716945E7E008052E0 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		225B751916946035008052E0 /* GravEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GravEngine.cpp; sourceTree = "<group>"; };
+		225B751A16946035008052E0 /* GravEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravEngine.h; sourceTree = "<group>"; };
+		225B7522169473AC008052E0 /* lesson16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lesson16.cpp; path = ../../../../Downloads/lesson16/lesson16.cpp; sourceTree = "<group>"; };
+		225B7526169479FF008052E0 /* lesson09.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lesson09.cpp; path = ../../../../Downloads/lesson09/lesson09.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225B74EF1693C487008052E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225B750A1693C5F3008052E0 /* SDL.framework in Frameworks */,
+				225B75081693C5D9008052E0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225B74E71693C487008052E0 = {
+			isa = PBXGroup;
+			children = (
+				225B75131693C700008052E0 /* SDLMain.h */,
+				225B7522169473AC008052E0 /* lesson16.cpp */,
+				225B7526169479FF008052E0 /* lesson09.cpp */,
+				225B75141693C700008052E0 /* SDLMain.m */,
+				225B75091693C5F3008052E0 /* SDL.framework */,
+				225B75071693C5D9008052E0 /* Cocoa.framework */,
+				225B74F51693C487008052E0 /* GravityTest */,
+				225B74F31693C487008052E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		225B74F31693C487008052E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				225B74F21693C487008052E0 /* GravityTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		225B74F51693C487008052E0 /* GravityTest */ = {
+			isa = PBXGroup;
+			children = (
+				225B74F61693C487008052E0 /* main.cpp */,
+				225B751616945E7E008052E0 /* Point.cpp */,
+				225B751716945E7E008052E0 /* Point.h */,
+				225B751916946035008052E0 /* GravEngine.cpp */,
+				225B751A16946035008052E0 /* GravEngine.h */,
+				225B74F81693C487008052E0 /* GravityTest.1 */,
+			);
+			path = GravityTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225B74F11693C487008052E0 /* GravityTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225B74FC1693C487008052E0 /* Build configuration list for PBXNativeTarget "GravityTest" */;
+			buildPhases = (
+				225B74EE1693C487008052E0 /* Sources */,
+				225B74EF1693C487008052E0 /* Frameworks */,
+				225B74F01693C487008052E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityTest;
+			productName = GravityTest;
+			productReference = 225B74F21693C487008052E0 /* GravityTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225B74E91693C487008052E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sam Bassett";
+			};
+			buildConfigurationList = 225B74EC1693C487008052E0 /* Build configuration list for PBXProject "GravityTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 225B74E71693C487008052E0;
+			productRefGroup = 225B74F31693C487008052E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225B74F11693C487008052E0 /* GravityTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225B74EE1693C487008052E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225B74F71693C487008052E0 /* main.cpp in Sources */,
+				225B75151693C700008052E0 /* SDLMain.m in Sources */,
+				225B751816945E7E008052E0 /* Point.cpp in Sources */,
+				225B751B16946035008052E0 /* GravEngine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		225B74FA1693C487008052E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		225B74FB1693C487008052E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		225B74FD1693C487008052E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		225B74FE1693C487008052E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225B74EC1693C487008052E0 /* Build configuration list for PBXProject "GravityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225B74FA1693C487008052E0 /* Debug */,
+				225B74FB1693C487008052E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225B74FC1693C487008052E0 /* Build configuration list for PBXNativeTarget "GravityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225B74FD1693C487008052E0 /* Debug */,
+				225B74FE1693C487008052E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 225B74E91693C487008052E0 /* Project object */;
+}

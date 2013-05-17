@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222D63C41695C78D00B3F283 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222D63C31695C78D00B3F283 /* SDL_image.framework */; };
 		225B74F71693C487008052E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225B74F61693C487008052E0 /* main.cpp */; };
 		225B74F91693C487008052E0 /* GravityTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 225B74F81693C487008052E0 /* GravityTest.1 */; };
 		225B75081693C5D9008052E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B75071693C5D9008052E0 /* Cocoa.framework */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		222D63C31695C78D00B3F283 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
 		225B74F21693C487008052E0 /* GravityTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GravityTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225B74F61693C487008052E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		225B74F81693C487008052E0 /* GravityTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GravityTest.1; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222D63C41695C78D00B3F283 /* SDL_image.framework in Frameworks */,
 				225B750A1693C5F3008052E0 /* SDL.framework in Frameworks */,
 				225B75081693C5D9008052E0 /* Cocoa.framework in Frameworks */,
 			);
@@ -65,8 +68,9 @@
 				225B7522169473AC008052E0 /* lesson16.cpp */,
 				225B7526169479FF008052E0 /* lesson09.cpp */,
 				225B75141693C700008052E0 /* SDLMain.m */,
-				225B75091693C5F3008052E0 /* SDL.framework */,
 				225B75071693C5D9008052E0 /* Cocoa.framework */,
+				222D63C31695C78D00B3F283 /* SDL_image.framework */,
+				225B75091693C5F3008052E0 /* SDL.framework */,
 				225B74F51693C487008052E0 /* GravityTest */,
 				225B74F31693C487008052E0 /* Products */,
 			);

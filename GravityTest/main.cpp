@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <SDL/SDL.h>
+#include <SDL_image/SDL_image.h>
 #include "GravEngine.h"
 
 SDL_Surface *loadImage(std::string filename);
@@ -29,9 +30,9 @@ int main (int argc, char *argv[]) {
     
     SDL_Surface *screen = NULL;
     screen = SDL_SetVideoMode(800, 600, 32, SDL_SWSURFACE);
-    SDL_WM_SetCaption("Newton would [now] be proud", NULL);
+    SDL_WM_SetCaption("Newton would [sort of] be proud", NULL);
     
-    SDL_Surface *dotBMP = SDL_LoadBMP("/Users/sam/Documents/Programming/C++/GravityTest/Resources/dot.bmp");
+    SDL_Surface *dotBMP = loadImage("/Users/sam/Documents/Programming/C++/GravityTest/Resources/dot.bmp");
     if (dotBMP == NULL) {
         printf("Problem loading image\n");
         return EXIT_FAILURE;
@@ -48,7 +49,7 @@ int main (int argc, char *argv[]) {
             if (event.type == SDL_MOUSEBUTTONDOWN) {
                 mouseX = event.button.x;
                 mouseY = event.button.y;
-                Point p(mouseX, mouseY, 10);
+                Point p(mouseX, mouseY, 10); // I guessed radius of bmp. it's 10.
                 engine.addPoint(p);
             }
             
@@ -90,8 +91,8 @@ SDL_Surface *loadImage(std::string filename) {
     optImage = SDL_DisplayFormat(loadedImage);
     SDL_FreeSurface(loadedImage);
     if (optImage != NULL) {
-        SDL_SetColorKey(optImage, SDL_SRCCOLORKEY, SDL_MapRGB(optImage->format,
-                                                              0, 0xFF, 0xFF));
+        Uint32 colourKey = SDL_MapRGB(optImage->format, 0xFF, 0xFF, 0xFF);
+        SDL_SetColorKey(optImage, SDL_SRCCOLORKEY, colourKey);
     }
     return optImage;
 }

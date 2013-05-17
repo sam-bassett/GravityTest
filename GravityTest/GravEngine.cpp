@@ -66,11 +66,17 @@ void GravEngine::collide(Point *p) {
         double xSpeed = p->getXSpeed();
         p->setXSpeed(-xSpeed);
     } else {
-        double ySpeed = p->getYSpeed();        
+        double ySpeed = p->getYSpeed();
+        if (ySpeed >= 6) {
+            ySpeed -= ySpeed/6;
+        } else {
+            ySpeed = 0;
+        }
         p->setYSpeed(-ySpeed);
         // move slightly "in bounds" so it doesn't keep reversing velocity
+        // FIX THIS SO IT IS ACTUALLY PHYSICS
         if (yVal >= height) {
-            p->setY(height - 5);
+            p->setY(height-5);
         } else {
             p->setY(5);
         }

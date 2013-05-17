@@ -76,5 +76,6 @@ void Point::switchGrav() {
 }
 
 void Point::printStats() {
-    printf("X:%f Y:%f\nxVel:%f yVel:%f\n", x, y, xSpeed, ySpeed);
+    printf("X:%f Y:%f\nxVel:%f yVel:%f\nRadius:%f\n", x, y, xSpeed,
+           ySpeed, radius);
 }
